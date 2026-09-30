@@ -1,0 +1,220 @@
+{
+  "alarms": [],
+  "client": "tdc",
+  "currency": "USD",
+  "daily": [],
+  "display_name": "Tax Debt Consultant",
+  "generated_at": "2026-09-30T02:48:07.205201-07:00",
+  "headline": [
+    {
+      "format": "money",
+      "key": "spend",
+      "label": "Ad spend",
+      "prior": 531.23,
+      "trend": [
+        556.22,
+        544.19,
+        573.59,
+        555.81,
+        562.84,
+        578.78,
+        531.23,
+        558.49
+      ],
+      "value": 558.49
+    },
+    {
+      "format": "int",
+      "key": "pixel_leads",
+      "label": "Pixel leads",
+      "prior": 342,
+      "trend": [
+        446,
+        394,
+        320,
+        268,
+        300,
+        374,
+        342,
+        397
+      ],
+      "value": 397
+    },
+    {
+      "format": "money",
+      "key": "cpl",
+      "label": "Cost per lead (Meta)",
+      "prior": 1.55,
+      "trend": [
+        1.25,
+        1.38,
+        1.79,
+        2.07,
+        1.88,
+        1.55,
+        1.55,
+        1.41
+      ],
+      "value": 1.41
+    },
+    {
+      "format": "int",
+      "key": "landing_page_views",
+      "label": "Landing page views",
+      "prior": 451,
+      "trend": [
+        510,
+        484,
+        440,
+        412,
+        455,
+        474,
+        451,
+        460
+      ],
+      "value": 460
+    }
+  ],
+  "insight": null,
+  "labels": {},
+  "metrics": {
+    "appointments_booked": 0,
+    "appointments_showed": 0,
+    "cost_per_message": null,
+    "cpl": 1.41,
+    "crm_leads": 0,
+    "crm_leads_raw": 0,
+    "ctr": 0.016448,
+    "google_conversions": 0,
+    "google_spend": 0,
+    "impressions": 30034,
+    "landing_page_views": 460,
+    "link_clicks": 494,
+    "messages": 0,
+    "meta_spend": 558.49,
+    "pixel_leads": 397,
+    "reach": 21597,
+    "spend": 558.49,
+    "tiktok_leads": 0,
+    "tiktok_spend": 0
+  },
+  "segment_label": "segment",
+  "segments": [],
+  "top_ads": [
+    {
+      "ad_name": "DCT- Tax Debt Book Version 2-LEARN/DOWNLOAD",
+      "campaign_name": "KS -DCT- [COLD]-Tax Debt Book Vol 2-Lead -CBO",
+      "crm_leads": null,
+      "messages": 0,
+      "pixel_leads": 74,
+      "spend": 59.23
+    },
+    {
+      "ad_name": "Control- IMG- EP - 1541389707997454",
+      "campaign_name": "KS -DCT- [COLD]-Tax Debt Book Vol 2-Lead -CBO",
+      "crm_leads": null,
+      "messages": 0,
+      "pixel_leads": 64,
+      "spend": 54.23
+    },
+    {
+      "ad_name": "DCT- IMG- Soc Med Assets- LEARN",
+      "campaign_name": "KS -DCT- [COLD]-Tax Debt Book Vol 2-Lead -CBO",
+      "crm_leads": null,
+      "messages": 0,
+      "pixel_leads": 49,
+      "spend": 58.67
+    },
+    {
+      "ad_name": "Control- IMG-EP 1488738616595897 -  Learn",
+      "campaign_name": "[REBUILT 3.16] KS - [COLD] - CS Page-ESCAPE THE IRS-LEAD - CBO",
+      "crm_leads": null,
+      "messages": 0,
+      "pixel_leads": 34,
+      "spend": 46.81
+    },
+    {
+      "ad_name": "Control- IMG-EP 1470261731776919-  Learn",
+      "campaign_name": "[REL 3.16.26] KS - [COLD] - CS PAGE-IRS SURVIVAL BOOK VOL 2-LEAD - CBO",
+      "crm_leads": null,
+      "messages": 0,
+      "pixel_leads": 22,
+      "spend": 25.51
+    }
+  ],
+  "unavailable": [
+    "crm_leads",
+    "crm_leads_raw",
+    "appointments_booked",
+    "appointments_showed",
+    "tiktok_spend",
+    "tiktok_leads",
+    "google_spend",
+    "google_conversions"
+  ],
+  "verification": {
+    "checks": [
+      {
+        "detail": "weekly window has 7 day(s)",
+        "name": "window_span",
+        "ok": true
+      },
+      {
+        "detail": "meta 558.49, google 0.00, tiktok 0.00, total 558.49",
+        "name": "spend",
+        "ok": true
+      },
+      {
+        "detail": "non-spend aggregate metrics match raw rows",
+        "name": "raw_metrics",
+        "ok": true
+      },
+      {
+        "detail": "raw 0, counted 0",
+        "name": "crm_leads",
+        "ok": true
+      },
+      {
+        "detail": "expected 1.41, got 1.41",
+        "name": "cpl",
+        "ok": true
+      },
+      {
+        "detail": "segment totals do not exceed report totals",
+        "name": "segments_additive",
+        "ok": true
+      },
+      {
+        "detail": "segments cover report totals",
+        "name": "segments_coverage",
+        "ok": true
+      },
+      {
+        "detail": "all headline trends have eight matching points",
+        "name": "headline_trends",
+        "ok": true
+      },
+      {
+        "detail": "raw rows by date: 2026-09-18=8; report has no daily audit rows",
+        "name": "raw_rows_covered",
+        "ok": true
+      },
+      {
+        "detail": "report keys and values match the allowlist",
+        "name": "schema_allowlist",
+        "ok": true
+      },
+      {
+        "detail": "meta pixel leads 397.00, CRM leads 0",
+        "name": "tracking_drift",
+        "ok": true
+      }
+    ],
+    "status": "pass"
+  },
+  "window": {
+    "end": "2026-09-24",
+    "label": "Sep 18 to Sep 24",
+    "start": "2026-09-18"
+  }
+}
